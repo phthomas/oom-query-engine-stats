@@ -1,0 +1,6 @@
+duckdb==1.0.0
+polars==1.2.1
+chdb==1.4.1
+python-dotenv==1.0.1
+s3fs==2024.6.1
+pyarrow==17.0.0
