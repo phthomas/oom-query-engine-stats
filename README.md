@@ -10,10 +10,12 @@ There is only 3 files as for the 9gb test I only change the data being read in s
 
 I got the following using t3.medium in aws
 
-duckdb 9gb: 407.12 s 
-polars 9gb:  129.14 s
-chdb 9gb:  254.35 s
+For 9gb files:
+* duckdb 9gb: 407.12 s 
+* polars 9gb:  129.14 s
+* chdb 9gb:  254.35 s
 
-duckdb 18gb: Out of Memory Error
-polars 18gb: 259.94 s
-chdb 18gb: 580.001 s
+For 18gb files:
+* duckdb 18gb: Out of Memory Error
+* polars 18gb: 259.94 s
+* chdb 18gb: 580.001 s
