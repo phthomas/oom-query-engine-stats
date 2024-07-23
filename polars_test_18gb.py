@@ -20,7 +20,7 @@ storage_options = {
 }
 
 #set up s3 connection
-s3_endpoint = f"s3://duckdb-backblaze-data"
+s3_endpoint = "s3://duckdb-backblaze-data"
 fs = s3fs.S3FileSystem(key=f"{S3_ACCESS_KEY}", secret=f"{S3_SECRET_KEY}")
 
 #filter data to read

@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 #duckdb extension
-.db
+*.db
 
 # C extensions
 *.so
